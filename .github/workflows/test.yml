@@ -61,4 +61,4 @@ jobs:
             cd ~/
             docker stop afros
             docker image rm afros/test:firsttry
-            docker run --name afros --rm -p 5000:5000 afros/test:firsttry
+            docker run --name afros -d -p 5000:5000 afros/test:firsttry

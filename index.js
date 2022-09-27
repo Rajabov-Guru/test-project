@@ -19,11 +19,11 @@ app.use(express.static(path.resolve(__dirname, 'static')));
 app.use(fileUpload({}));
 
 app.get('/', (req,res)=>{
-    res.send('Main page 2');
+    res.send('Main page 3');
 });
 
 app.get('/test', (req,res)=>{
-    res.send('Test page 2');
+    res.send('Test page 3');
 });
 
 
