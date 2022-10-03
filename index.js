@@ -19,7 +19,7 @@ app.use(express.static(path.resolve(__dirname, 'static')));
 app.use(fileUpload({}));
 
 app.get('/', (req,res)=>{
-    res.send('Main page 3');
+    res.send('Today is 3 october');
 });
 
 app.get('/test', (req,res)=>{
